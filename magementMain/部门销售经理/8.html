@@ -1,0 +1,182 @@
+<html lang="zh-hans"><head>
+    <meta charset="GBK">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="1.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4" style="height:100px">
+            <img src="1.jpg" class="img-responsive">
+          </div>
+          <div class="col-md-8">
+            <img src="2.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center" style="height:600px;background:cyan">
+            <div class="panel-group" id="accordion" style="margin-top:20px">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                               房间信息管理
+                            </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">添加房间信息</li>
+                      <li class="list-group-item">删除房间信息</li>
+                      <li class="list-group-item">修改房间信息</li>
+                      <li class="list-group-item">查询房间信息</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                价格信息管理
+                            </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">添加价格信息</li>
+                      <li class="list-group-item">删除价格信息</li>
+                      <li class="list-group-item">修改价格信息</li>
+                      <li class="list-group-item">查询价格信息</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                优惠信息管理
+                            </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">添加优惠信息</li>
+                      <li class="list-group-item">删除优惠信息</li>
+                      <li class="list-group-item">修改优惠信息</li>
+                      <li class="list-group-item">查询优惠信息</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                统计营业额
+                            </a>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">统计年营业额</li>
+                      <li class="list-group-item">统计季营业额</li>
+                      <li class="list-group-item">统计月营业额</li>
+                      <li class="list-group-item">统计周营业额</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                统计入住率
+                            </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">当前入住率</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                      			退出
+                            </a>
+                  </h4>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">退出当前登录</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9 text-center" style="height:600px;">
+            <table class="table">
+			<caption class="text-center">当前房间价格情况</caption>
+              <thead>
+                <tr class="warning">
+                  <th>序号</th>
+                  <th>价格编号</th>
+                  <th>价格金额</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>1</td>
+                  <td>01</td>
+                  <td>200</td>
+                </tr>
+                <tr class="danger">
+                  <td>2</td>
+                  <td>02</td>
+                  <td>100</td>
+                </tr>
+                <tr class="warning">
+                  <td>3</td>
+                  <td>03</td>
+                  <td>500</td>
+                </tr>
+                <tr class="success">
+                  <td>4</td>
+                  <td>04</td>
+                  <td>800</td>
+                </tr>
+                <tr class="danger">
+                  <td>5</td>
+                  <td>05</td>
+                  <td>1200</td>
+                </tr>
+              </tbody>
+            </table>
+            <input id="userName" type="text" class="form-control" placeholder="价格编号" aria-describedby="basic-addon1"><br/>
+			<button type="button" class="btn btn-block btn-lg btn-primary">查询价格信息</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
